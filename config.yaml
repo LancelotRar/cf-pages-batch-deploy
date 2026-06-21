@@ -12,8 +12,10 @@ accounts:
     pages:
       project_name: share-main2c1m2
       domain: gy-cffc4-main-v1.lancelot.dpdns.org
-      kv_namespace_id: ""
-      kv_binding: KV
+      kv_create: false
+      kv_namespace: ""
+      kv_binding: false
+      kv_binding_env: KV
       project_type: production
     env:
       - name: UUID
@@ -30,8 +32,10 @@ accounts:
     pages:
       project_name: gy-cffc1-node-v0
       domain: gy-cffc1-node-v0.lancelot.dpdns.org
-      kv_namespace_id: gy-cffc1-node-v0
-      kv_binding: KV
+      kv_create: true
+      kv_namespace: gy-cffc1-node-v0
+      kv_binding: true
+      kv_binding_env: KV
       project_type: production
     env:
       - name: UUID
@@ -48,8 +52,10 @@ accounts:
     pages:
       project_name: gy-cffc2-node-v0
       domain: gy-cffc2-node-v0.lancelot.dpdns.org
-      kv_namespace_id: gy-cffc2-node-v0
-      kv_binding: KV
+      kv_create: true
+      kv_namespace: gy-cffc2-node-v0
+      kv_binding: true
+      kv_binding_env: KV
       project_type: production
     env:
       - name: UUID
@@ -66,8 +72,10 @@ accounts:
     pages:
       project_name: gy-cffc3-node-v0
       domain: gy-cffc3-node-v0.lancelot.dpdns.org
-      kv_namespace_id: gy-cffc3-node-v0
-      kv_binding: KV
+      kv_create: true
+      kv_namespace: gy-cffc3-node-v0
+      kv_binding: true
+      kv_binding_env: KV
       project_type: production
     env:
       - name: UUID
@@ -84,8 +92,10 @@ accounts:
     pages:
       project_name: gy-cffc5-node-v0
       domain: gy-cffc5-node-v0.lancelot.dpdns.org
-      kv_namespace_id: gy-cffc5-node-v0
-      kv_binding: KV
+      kv_create: true
+      kv_namespace: gy-cffc5-node-v0
+      kv_binding: true
+      kv_binding_env: KV
       project_type: production
     env:
       - name: UUID

@@ -15,12 +15,13 @@ accounts:
       kv_namespace_id: ""
       kv_binding: KV
       project_type: production
-    uuid:
-      type: plain_text
-      value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
-    admin:
-      type: plain_text
-      value: li19882008
+    env:
+      UUID:
+        type: plain_text
+        value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
+      ADMIN:
+        type: plain_text
+        value: li19882008
 
   - name: cffc1@lancelot.dpdns.org
     enabled: true
@@ -32,12 +33,13 @@ accounts:
       kv_namespace_id: gy-cffc1-node-v0
       kv_binding: KV
       project_type: production
-    uuid:
-      type: plain_text
-      value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
-    admin:
-      type: plain_text
-      value: li19882008
+    env:
+      UUID:
+        type: plain_text
+        value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
+      ADMIN:
+        type: plain_text
+        value: li19882008
 
   - name: cffc2@lancelot.dpdns.org
     enabled: true
@@ -49,12 +51,13 @@ accounts:
       kv_namespace_id: gy-cffc2-node-v0
       kv_binding: KV
       project_type: production
-    uuid:
-      type: plain_text
-      value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
-    admin:
-      type: plain_text
-      value: li19882008
+    env:
+      UUID:
+        type: plain_text
+        value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
+      ADMIN:
+        type: plain_text
+        value: li19882008
 
   - name: cffc3@lancelot.dpdns.org
     enabled: true
@@ -66,12 +69,13 @@ accounts:
       kv_namespace_id: gy-cffc3-node-v0
       kv_binding: KV
       project_type: production
-    uuid:
-      type: plain_text
-      value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
-    admin:
-      type: plain_text
-      value: li19882008
+    env:
+      UUID:
+        type: plain_text
+        value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
+      ADMIN:
+        type: plain_text
+        value: li19882008
 
   - name: cffc5@lancelot.dpdns.org
     enabled: false
@@ -83,9 +87,10 @@ accounts:
       kv_namespace_id: gy-cffc5-node-v0
       kv_binding: KV
       project_type: production
-    uuid:
-      type: plain_text
-      value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
-    admin:
-      type: plain_text
-      value: li19882008
+    env:
+      UUID:
+        type: plain_text
+        value: 31f549bd-6265-4099-a9c2-5ef86aada3a2
+      ADMIN:
+        type: plain_text
+        value: li19882008

@@ -1,11 +1,9 @@
-# 全局配置：重新部署所需文件
 files_to_redeploy:
   dir: files-to-redeploy
   download_url: https://ghproxy.19882008.xyz/https://github.com/cmliu/edgetunnel/archive/refs/heads/main.zip
 
-# Cloudflare Pages 部署账号
 accounts:
-  - name: cffc4@lancelot.dpdns.org
+  - name: cffc4@lancelot.dpdns.org  
     enabled: false
     token: cfat_xxxxxxxxxxxxx_REPLACED_1
     account_id: c90461af64810c25832240efa660630b
